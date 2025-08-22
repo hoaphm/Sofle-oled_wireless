@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - DELETE
-  - {t: CAPSLOCK, h: Meh+LCMD}
+  - TAB
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - BSPC
-  - TAB
+  - {t: CAPS, h: Meh+LEFT GUI}
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LCMD}
@@ -55,8 +55,8 @@ layers:
   - LALT
   - LCMD
   - lower
-  - RET
   - SPACE
+  - ENTER
   - raise
   - RCMD
   - RALT
