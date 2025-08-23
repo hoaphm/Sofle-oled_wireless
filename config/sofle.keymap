@@ -158,7 +158,7 @@
 
 / {
     behaviors {
-        tabrpt: esc_bcps {
+        escbspc: esc_bspc {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp BSPC>;
