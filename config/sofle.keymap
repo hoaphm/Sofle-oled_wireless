@@ -147,23 +147,4 @@
         };
     };
 };
-/ {
-    behaviors {
-        cb_mng: clipboard_manage {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <150>;
-            bindings = <&kp LC(V)>, <&kp LEFT_GUI(V)>;
-        };
-    };
 
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-                &cb_mng
-            >;
-        };
-    };
-};
