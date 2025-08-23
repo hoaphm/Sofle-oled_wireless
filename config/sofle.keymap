@@ -145,7 +145,17 @@
         tabrpt: tab_repeat {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp Tab>, <&kp BSPC>;
+            bindings = <&kp Tab>, <&key_repeat>;
+            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+        };
+    };
+};
+/ {
+    behaviors {
+        tabrpt: esc_bcps {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp ESC>, <&kp BSPC>;
             mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
         };
     };
