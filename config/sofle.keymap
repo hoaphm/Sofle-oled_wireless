@@ -149,7 +149,7 @@
 };
 / {
     behaviors {
-        cb: clipboard {
+        cb_mng: clipboard_manage {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
@@ -162,7 +162,7 @@
 
         default_layer {
             bindings = <
-                &cb
+                &cb_mng
             >;
         };
     };
