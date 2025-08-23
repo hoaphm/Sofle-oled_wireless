@@ -147,3 +147,13 @@
         };
     };
 };
+/ {
+    behaviors {
+        tabrpt: tab_repeat {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp Tab>, <&key_repeat>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
+};
