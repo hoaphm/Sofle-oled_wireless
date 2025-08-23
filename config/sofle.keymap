@@ -149,7 +149,7 @@
 };
 / {
     behaviors {
-        tabrpt: tab_repeat {
+        tre: tab_repeat {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp Tab>, <&key_repeat>;
