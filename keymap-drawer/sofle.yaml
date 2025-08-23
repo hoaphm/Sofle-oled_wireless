@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - {t: Tab, s: '&key_repeat'}
+  - {t: ESC, s: BSPC}
   - '1'
   - '2'
   - '3'
@@ -53,7 +53,7 @@ layers:
   - RSHFT
   - LCTRL
   - LALT
-  - LCMD
+  - {t: DELETE, h: lower}
   - lower
   - SPACE
   - ENTER
@@ -114,8 +114,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,8 +236,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
+  - ''
   - ''
   - ''
   - {type: held}
