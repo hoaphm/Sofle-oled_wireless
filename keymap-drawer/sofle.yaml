@@ -50,13 +50,13 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - ENTER
   - LCTRL
   - LALT
   - LCMD
   - {t: BACKSPACE, h: lower}
   - SPACE
-  - ENTER
+  - SPACE
   - {t: raise, h: toggle}
   - RCMD
   - RALT
