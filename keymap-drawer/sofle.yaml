@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - ESC
+  - {t: ESC, s: '`'}
   - '1'
   - '2'
   - '3'
