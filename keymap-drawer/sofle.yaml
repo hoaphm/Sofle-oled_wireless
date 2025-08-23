@@ -53,8 +53,8 @@ layers:
   - RSHFT
   - LCTRL
   - LALT
-  - {t: DELETE, h: lower}
-  - lower
+  - LCMD
+  - {t: BACKSPACE, h: lower}
   - SPACE
   - ENTER
   - raise
@@ -114,8 +114,8 @@ layers:
   - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,8 +236,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - {type: held}
