@@ -144,26 +144,4 @@
     };
 };
 
-/ {
-    behaviors {
-        tabrpt: tab_repeat {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp Tab>, <&key_repeat>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-        };
-    };
-};
-
-/ {
-    behaviors {
-        escbspc: esc_bspc {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp BSPC>;
-
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-        };
-    };
-};
