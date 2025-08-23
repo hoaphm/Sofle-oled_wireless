@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - {t: ESC, s: BSPC}
+  - '&escbspc'
   - '1'
   - '2'
   - '3'
@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - DELETE
-  - {t: Tab, s: '&key_repeat'}
+  - '&tabrpt'
   - Q
   - W
   - E
