@@ -147,3 +147,13 @@
         };
     };
 };
+// Alt+Tab swapper
+/ {
+    behaviors {
+        swapper: swapper {
+            compatible = "zmk,behavior-tri-state";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+        };
+    };
+};
