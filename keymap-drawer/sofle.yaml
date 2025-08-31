@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - {t: ESC, s: '`'}
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -62,7 +62,7 @@ layers:
   - RALT
   - RCTRL
   lower:
-  - {t: ▽, type: trans}
+  - '`'
   - F1
   - F2
   - F3
@@ -116,8 +116,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LALT
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
