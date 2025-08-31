@@ -37,7 +37,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: RCTRL}
   - ''''
-  - '&swapper'
+  - LSHFT
   - Z
   - X
   - C
@@ -98,7 +98,7 @@ layers:
   - (
   - )
   - BACKSPACE
-  - {t: ▽, type: trans}
+  - '&swapper'
   - '='
   - +
   - KP SUBTRACT
